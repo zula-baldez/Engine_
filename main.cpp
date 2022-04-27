@@ -15,13 +15,13 @@ void naklon();
 using namespace sf;
 
 int main() {
-    std::vector<Figure> figures;
+   /* std::vector<Figure> figures;
     CircleShape circleShape(100.f);
     Figure figure(circleShape, false, 10);
     figure.speedx = 0.1;
     figure.tyazest = Strenght(toRadian(90), 9.81);
     figures.push_back(figure);
-    double deltat = 0.001;
+    double deltat = 0.01;
     RectangleShape poddon(Vector2f(1920, 50));
     Figure figure1(poddon, true, 123456789);
     figure1.x = 0;
@@ -65,7 +65,8 @@ int main() {
             window.draw(*(j.shape));
         }
         window.display();
-    }
+    }*/
+   ball();
 }
 
 double toRadian(double a) {
